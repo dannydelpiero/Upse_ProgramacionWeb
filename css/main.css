@@ -1,0 +1,32 @@
+footer{
+    color:white;
+    background: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper{
+    max-width: 940px;
+    margin:0 auto;
+    padding: 0 5%;
+    background: orange;
+}
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
+header{
+    background:red ;
+    border-color: yellow;
+
+}
+h1,h2{
+    color:white;
+}
+nav{
+    background: gray;
+}
