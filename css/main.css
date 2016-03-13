@@ -1,8 +1,4 @@
-footer{
-    color:white;
-    background: black;
-}
-
+/***************************GENERAL*******************************/
 a{
     text-decoration: none;
     color: white;
@@ -15,10 +11,8 @@ a{
     background: orange;
 }
 
-#logo{
-    text-align: center;
-    margin: 0;
-}
+
+/***************************HEADING*******************************/
 header{
     background:red ;
     border-color: yellow;
@@ -27,6 +21,38 @@ header{
 h1,h2{
     color:white;
 }
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    /**line-height: 0.8em;**/
+}
+
+/***************************NAVIGATOR*******************************/
 nav{
-    background: gray;
+    background: #FFF0A7;
+}
+nav a, nav a:visited{
+    color: #fff;
+}
+
+/**SELECTORES**/
+nav a.selected{
+    color: #AA4339;
+}
+nav a:hover{
+    color:#000000;
+}
+
+/***************************FOOTER*******************************/
+footer{
+    color:white;
+    background: black;
 }
