@@ -10,7 +10,9 @@ a{
     padding: 0 5%;
     background: orange;
 }
-
+img{
+    max-width:100%; 
+}
 
 /***************************HEADING*******************************/
 header{
@@ -35,6 +37,11 @@ h1{
     /**line-height: 0.8em;**/
 }
 
+#galeria{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 /***************************NAVIGATOR*******************************/
 nav{
     background: #FFF0A7;
@@ -50,9 +57,16 @@ nav a.selected{
 nav a:hover{
     color:#000000;
 }
-
+/**
+#galeria li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}*/
 /***************************FOOTER*******************************/
 footer{
-    color:white;
-    background: black;
+    color:black;
+    background: #FFF0A7;
 }
