@@ -16,6 +16,12 @@ img{
 
 /***************************HEADING*******************************/
 header{
+    /*borra espacio superior*/
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+
     background:red ;
     border-color: yellow;
 
@@ -44,7 +50,8 @@ h1{
 }
 /***************************NAVIGATOR*******************************/
 nav{
-    background: #FFF0A7;
+    /*background: #FFF0A7;*/
+    background: yellow;
 }
 nav a, nav a:visited{
     color: #fff;
@@ -56,6 +63,21 @@ nav a.selected{
 }
 nav a:hover{     /*efecto en el menu*/
     color:#000000;
+}
+
+nav ul {               /*modificando el navegador*/
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li{                 /*elementos que vayan uno a lado d otro en el menu de navegacion*/
+    display: inline-block;
+}
+
+nav a {                 /*aumenta el enfasis del menu de navegacion*/
+    font-weight: 800;
+    padding: 15px 10px; /*aumenta el area del menu*/
 }
 
 #galeria li {
@@ -70,7 +92,7 @@ nav a:hover{     /*efecto en el menu*/
     margin: 0;
     padding: 5%;
     font-size: 0.75em;
-    color: #bdc3c7;
+   color: #bdc3c7;
 }
 /***************************FOOTER*******************************/
 footer{
