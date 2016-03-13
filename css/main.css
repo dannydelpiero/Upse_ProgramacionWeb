@@ -116,5 +116,31 @@ footer{
     display: block;
     max-width: 350px;
     margin: 0 auto 30px;
-    border-radius: 80%
+    border-radius: 80%;
+}
+
+.profile1-photo{     /*la imagen lo ase forma de circulo*/
+    display: block;
+    max-width: 350px;
+    margin: 0 auto 30px;
+    border-radius: 200%;
+}
+/**********************************PAGINA CONTACTO***************************************/
+.contact-info li.phone a{
+    background-image: url('../galeria/phone.png');
+}
+.contact-info li.mail a{
+    background-image: url('../galeria/mail.png');
+}
+.contact-info li.twitter a{
+    background-image: url('../galeria/twitter.png');
+}
+
+.contact-info a {
+    display: block;
+    /*min-height: 20px;*/
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding: 0 0 0 30px;
+    margin:0 0 10px;
 }
