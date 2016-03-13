@@ -104,3 +104,17 @@ footer{
     color:black;
     background: #FFE4A7;
 }
+
+.social-icon{
+    width: 30px;
+    height: 30px;
+    margin:0 5px; 
+}
+
+/************************PAGINA ABOUT*****************************/
+.profile-photo{     /*la imagen lo ase forma de circulo*/
+    display: block;
+    max-width: 350px;
+    margin: 0 auto 30px;
+    border-radius: 80%
+}
