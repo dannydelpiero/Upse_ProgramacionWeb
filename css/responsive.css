@@ -8,14 +8,47 @@ para distinguir dispositivos celular tablet escritorio
     body{
         background:navy;
     }
-}
+}*/
 
 @media screen and (min-width: 660px)
 {
     body{
-        background:darkgreen;
+        background:none;
     }
-}*/
+    
+    nav{
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 50%;
+
+	}
+
+	/*ajustando el encabezado*/
+	#logo{
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+/*finalizando el encabezado*/
+	header{
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+}
 
 /*layout de dos columnas*/
 @media screen and (min-width: 480px)
@@ -28,5 +61,20 @@ para distinguir dispositivos celular tablet escritorio
 		width:50%;
   		float:right;
   }
+
+	#galeria li{
+	width: 28.333%;
+	}
+
+	#galeria li:nth-child(3n+1) /*a partir del 3 elemento de la galeria da un salto de linea esto cuando tengamos mas d tres imagenes*/
+	{
+		clear: left;
+	}
+
+	.profile-photo
+	{
+		float: left;
+		margin: 0 5% 120px 0;
+	}
 }
 
