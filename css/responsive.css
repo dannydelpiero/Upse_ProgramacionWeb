@@ -1,0 +1,32 @@
+/*respomsive
+para distinguir dispositivos celular tablet escritorio
+
+
+*/
+/* @media screen and (min-width: 480px)
+{
+    body{
+        background:navy;
+    }
+}
+
+@media screen and (min-width: 660px)
+{
+    body{
+        background:darkgreen;
+    }
+}*/
+
+/*layout de dos columnas*/
+@media screen and (min-width: 480px)
+{
+  #primary {
+  		width:50%;
+  		float:left;
+  	}
+  #secondary{
+		width:50%;
+  		float:right;
+  }
+}
+
